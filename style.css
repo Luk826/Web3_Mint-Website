@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VT323", monospace;
+  /*font-family: 'Press Start 2P', cursive;*/
+}
+
+#hero h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Press Start 2P", cursive;
+}
+
+#titolo{
+  position:relative;
+  padding: 100px;
+  
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: aliceblue;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9); /*Durezza ombra*/
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+#header div {
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+
+#header div a {
+  padding: 0 30px;
+}
+
+#header a {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: 0.3s ease;
+}
+
+#header div a:hover {
+  color: #ffbd27;
+}
+
+.divNav {
+  display: flex;
+  align-items: center;
+}
+
+button.white {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 50px;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.white:hover {
+  background-color: #ffbd27;
+}
+
+/* ----- HERO ----- */
+
+#hero {
+  background-image: url("img/parallax-bg.gif");
+  height: 92vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e3e6f3;
+  font-size: 32px;
+}
+
+/* ----- Countdown ----- */
+
+#countdown-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px 15px rgba(0, 0, 0, 0.5); /*Durezza ombra*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#countdown-card h2{
+  padding: 30px 30px 10px 30px;
+  color: #1a1a1a;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  transform: scale(1); /* or scale(2)*/
+  padding-bottom: 20px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  color: #1a1a1a;
+}
+
+.time h3 {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1;
+  margin: 0 0 5px;
+  color: #1a1a1a;
+}
+
+/* ----- IL PROGETTO ----- */
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ----MEDIA QUERY ----- */
+@media (max-width: 500px) {
+  h2 {
+    font-size: 45px;
+  }
+  .time {
+    margin: 5px;
+  }
+  .time h3 {
+    font-size: 12px;
+  }
+  .time small {
+    font-size: 10px;
+  }
+}
