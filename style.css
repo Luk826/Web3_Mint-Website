@@ -343,13 +343,13 @@ button.white:hover {
   background: #f2f2f2;
 }
 
-.team-container{
+.team-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#team-title-1{
+#team-title-1 {
   width: 100%;
   text-align: center;
   font-size: 50px;
@@ -442,16 +442,22 @@ button.white:hover {
   background: #d19c24;
 }
 
-/******* swiper ********/ 
+/******* swiper ********/
 
-.swiper{
+.swiper {
   width: 950px;
 }
 
-.swiper-pagination{
+.swiper-pagination {
   color: #ffbd27;
 }
 
+.swiper-pagination-bullet {
+  height: 7px;
+  width: 26px;
+  border-radius: 25px;
+  background: #080400;
+}
 
 /*
 *
