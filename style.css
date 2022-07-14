@@ -145,6 +145,10 @@ button.white:hover {
 
 /* ----- ABOUT ----- */
 
+#about {
+  background: #f2f2f2;
+}
+
 #aboutProjectAndImg {
   display: flex;
   justify-content: center;
@@ -299,7 +303,7 @@ button.white:hover {
   flex-wrap: wrap;
 }
 
-#roadmap .div-quarter{
+#roadmap .div-quarter {
   margin-bottom: 25px;
 }
 
@@ -307,14 +311,14 @@ button.white:hover {
   text-align: center;
   padding: 30px 10px;
   box-shadow: 0px 5px 25px 8px rgba(0, 0, 0, 0.5),
-  0px 40px 30px 15px rgba(0, 0, 0, 0.1);
+    0px 40px 30px 15px rgba(0, 0, 0, 0.1);
   border: 1px solid black;
   width: 300px;
   border-radius: 4px;
   margin: 15px 0;
 }
 
-#roadmap .div-points{
+#roadmap .div-points {
   text-align: left;
 }
 
@@ -333,6 +337,121 @@ button.white:hover {
   background-color: #ffbd27;
   font-size: 25px;
 }
+
+/******** TEAM *********/
+#team {
+  background: #f2f2f2;
+}
+
+.team-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team-title-1{
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+#team .team-card .image {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #1a1a1a;
+}
+
+#team .team-card .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.team-card {
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+  margin: 20px 0;
+  width: 280px;
+  margin-bottom: 50px;
+}
+
+.team-card::before {
+  content: "";
+  position: absolute;
+  height: 45%;
+  width: 100%;
+  background-color: #1a1a1a;
+  border-radius: 20px 20px 0 0;
+}
+
+.team-card .team-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.team-card .name-profession {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: #333;
+}
+
+.name-profession .name {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.name-profession .profession {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.name-profession .motto {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.team-card .button {
+  margin-top: 15px;
+}
+
+.team-card .button button {
+  background: #ffbd27;
+  outline: none;
+  border: none;
+  color: #080400;
+  padding: 8px 22px;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background: #d19c24;
+}
+
+/******* swiper ********/ 
+
+.swiper{
+  width: 950px;
+}
+
+.swiper-pagination{
+  color: #ffbd27;
+}
+
 
 /*
 *
