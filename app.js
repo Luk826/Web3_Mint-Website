@@ -1,4 +1,4 @@
-/* ----- FUNZIONE COUNTDOWN ----- */
+/* ----- FUNCTION COUNTDOWN ----- */
 
 const days = document.getElementById("days");
 const hours = document.getElementById("hours");
@@ -8,7 +8,7 @@ const seconds = document.getElementById("seconds");
 const currentYear = new Date().getFullYear();
 
 const mintDate = new Date(
-  `July 17 ${currentYear} 00:00:00`
+  `August 01 ${currentYear} 00:00:00`
 ); /*Cambiare qui la data per il giorno del minting*/
 
 function updateCoutdown() {
@@ -28,4 +28,15 @@ function updateCoutdown() {
 
 setInterval(updateCoutdown, 1000);
 
-/* ----- Next Function ----- */
+/* ----- FUNCTION NASCONDIHEADER ----- */
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("header").style.top = "0";
+  } else {
+    document.getElementById("header").style.top = "-110px";
+  }
+  prevScrollpos = currentScrollPos;
+};
