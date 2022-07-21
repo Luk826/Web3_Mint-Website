@@ -24,30 +24,26 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="content">
     <section id="header">
-      <div>
-        <ul id="social">
-          <div class="divNav">
-            <div><a href=""> Facebook </a></div>
-            <div><a href=""> Twitter </a></div>
-            <div><a href=""> Email </a></div>
+      <ul id="social">
+        <div class="divNav">
+          <div><a href=""> Facebook </a></div>
+          <div><a href=""> Twitter </a></div>
+          <div><a href=""> Email </a></div>
+        </div>
+      </ul>
+      <ul id="navbar">
+        <div class="divNav">
+          <div><a href="#about"> About </a></div>
+          <div><a href="#team"> Team </a></div>
+          <div>
+            <button id="connecion-web3" class="white" onclick="Connect()">
+              Connect Wallet
+            </button>
           </div>
-        </ul>
-      </div>
-      <div>
-        <ul id="navbar">
-          <div class="divNav">
-            <div><a href="#about"> About </a></div>
-            <div><a href="#team"> Team </a></div>
-            <div>
-              <button id="connecion-web3" class="white" onclick="Connect()">
-                Connect Wallet
-              </button>
-            </div>
-          </div>
-        </ul>
-      </div>
+        </div>
+      </ul>
     </section>
     <section id="hero">
       <div id="titolo">
@@ -411,14 +407,8 @@
       <p>@ 2022, Luk8 - HTML&CSS&Js Web3_MintWebsite</p>
     </div>
 
-    <script src="app.js"></script>
+    <script src="index.js"></script>
     <script src="web3.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.5.2/ethers.umd.min.js"
-      integrity="sha512-PtOcu3WZTldHT+VjAJdWV5ss+iGebEgc1h5olJuxUNPvKuC0VOZsk1UhNgQYi5oIyrNHhdIOw8WQMdZwBv1MyQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

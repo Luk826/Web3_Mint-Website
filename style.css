@@ -51,13 +51,12 @@ button.normal {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   padding: 10px 80px;
   background: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9); /*Durezza ombra*/
   z-index: 999;
   position: sticky;
-  top: 0;
-  left: 0;
   transition: top 0.3s;
 }
 
@@ -165,7 +164,7 @@ button.white:hover {
 
 #about {
   background: #f2f2f2;
-  height: 92vh;
+  height: 100%;
 }
 
 #aboutProjectAndImg {
@@ -186,6 +185,7 @@ button.white:hover {
 #theProject {
   width: 50%;
   padding: 0 20px;
+  margin-bottom: 40px;
 }
 
 #randomImg {
@@ -361,7 +361,6 @@ button.white:hover {
 /******** TEAM *********/
 #team {
   background: #f2f2f2;
-  height: 92vh;
 }
 
 .team-container {
@@ -626,5 +625,25 @@ button.white:hover {
   }
   .time small {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 1114px) {
+  #aboutProjectAndImg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  #theProject {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  #randomImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
   }
 }
