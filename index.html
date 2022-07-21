@@ -38,10 +38,12 @@
       <div>
         <ul id="navbar">
           <div class="divNav">
-            <div><a href=""> About </a></div>
-            <div><a href=""> Team </a></div>
+            <div><a href="#about"> About </a></div>
+            <div><a href="#team"> Team </a></div>
             <div>
-              <button onclick="Connect()" class="white">Connect Wallet</button>
+              <button id="connecion-web3" class="white" onclick="Connect()">
+                Connect Wallet
+              </button>
             </div>
           </div>
         </ul>
@@ -371,13 +373,52 @@
       <h2>Ours Partner</h2>
       <div id="partner-container" class="section-p1"></div>
     </section>
-    <section id="footer" class="section-p1"></section>
+    <section id="footer" class="section-footer">
+      <div id="footer_link">
+        <div class="col">
+          <img src="./img/logo_cryptocity.png" class="logo" />
+          <h4>CryptoCity</h4>
+        </div>
+
+        <div class="col">
+          <h4>About</h4>
+          <a href="#">About Project</a>
+          <a href="#">Team</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Term & Conditions</a>
+          <a href="#">Contattaci</a>
+        </div>
+
+        <div class="col">
+          <h4>Ours Partner</h4>
+          <a href="https://www.binance.com/it" target="_blank">Binance</a>
+          <a href="https://www.asroma.com/it/" target="_blank">AS Roma</a>
+          <a href="https://www.nba.com/lakers" target="_blank">LA Lakers</a>
+          <a href="https://www.ubisoft.com/it-it/" target="_blank">Ubisoft</a>
+          <a href="https://www.samsung.com/it/" target="_blank">Samsung</a>
+        </div>
+      </div>
+
+      <div id="footer_newsletter-box">
+        <h3>Subscribe to our newsletter</h3>
+        <div class="form">
+          <input type="text" placeholder="Your email address" />
+          <button class="normal">Subscribe</button>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>@ 2022, Luk8 - HTML&CSS&Js Web3_MintWebsite</p>
+    </div>
 
     <script src="app.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
-    <script src="https://unpkg.com/web3@latest/dist/web3.min.js"></script>
     <script src="web3.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.5.2/ethers.umd.min.js"
+      integrity="sha512-PtOcu3WZTldHT+VjAJdWV5ss+iGebEgc1h5olJuxUNPvKuC0VOZsk1UhNgQYi5oIyrNHhdIOw8WQMdZwBv1MyQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

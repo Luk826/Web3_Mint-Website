@@ -19,6 +19,23 @@
   padding: 80px 100px;
 }
 
+.section-footer {
+  padding: 20px 100px;
+}
+
+button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
 #hero h1 {
   font-size: 50px;
   color: #fff;
@@ -288,7 +305,6 @@ button.white:hover {
 
 #roadmap {
   background-color: #1a1a1a;
-  height: 92vh;
 }
 #roadmap h2 {
   color: #fff;
@@ -498,8 +514,91 @@ button.white:hover {
 
 /****** FOOTER ********/
 
-#footer{
+#footer {
   background-color: #1a1a1a;
+  display: flex;
+  width: 100%;
+}
+
+#footer_link {
+  background-color: #1a1a1a;
+  display: flex;
+  width: 100%;
+}
+
+.copyright {
+  background-color: #1a1a1a;
+  color: #ffbd27;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  width: 100%;
+  text-align: center;
+}
+
+#footer .logo {
+  height: 100px;
+}
+
+#footer h4 {
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+#footer a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#footer .col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+#footer_newsletter-box {
+  border: 3px solid;
+  border-color: #ffbd27;
+  width: 70%;
+}
+
+#footer_newsletter-box h3 {
+  color: #fff;
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#footer_newsletter-box .form {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#footer_newsletter-box input {
+  height: 3.525rem;
+  padding: 0 1.25em;
+  font-size: 18px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#footer_newsletter-box button {
+  background-color: #ffbd27;
+  color: #080400;
+  white-space: nowrap;
+  font-size: 18px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 /*
