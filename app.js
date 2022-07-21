@@ -40,3 +40,22 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 };
+
+/*------  PARTNERS  -------*/
+
+fetch("partners.json")
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (dati) {
+    const partnerContainer = document.getElementById("partner-container");
+    for (let i = 0; i < 8; i++) {
+      const div = document.createElement("div");
+      div.className = "divPartner";
+      const img = document.createElement("img");
+      img.className = "partner-logo";
+      img.src = dati[i].img;
+      div.append(img);
+      partnerContainer.append(div);
+    }
+  });

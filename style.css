@@ -34,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 80px;
+  padding: 10px 80px;
   background: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9); /*Durezza ombra*/
   z-index: 999;
@@ -148,7 +148,7 @@ button.white:hover {
 
 #about {
   background: #f2f2f2;
-  height: 90vh;
+  height: 92vh;
 }
 
 #aboutProjectAndImg {
@@ -163,11 +163,12 @@ button.white:hover {
 
 #about #theProject p {
   margin-top: 20px;
-  font-size: 48px;
+  font-size: 35px;
 }
 
 #theProject {
   width: 50%;
+  padding: 0 20px;
 }
 
 #randomImg {
@@ -182,7 +183,7 @@ button.white:hover {
 .card {
   background: #1a1a1a;
   min-width: 250px;
-  max-width: 350px;
+  max-width: 300px;
   padding: 18px;
   border-radius: 15px;
   box-shadow: 0px 5px 25px 8px rgba(0, 0, 0, 0.5),
@@ -287,6 +288,7 @@ button.white:hover {
 
 #roadmap {
   background-color: #1a1a1a;
+  height: 92vh;
 }
 #roadmap h2 {
   color: #fff;
@@ -343,6 +345,7 @@ button.white:hover {
 /******** TEAM *********/
 #team {
   background: #f2f2f2;
+  height: 92vh;
 }
 
 .team-container {
@@ -444,6 +447,11 @@ button.white:hover {
   background: #d19c24;
 }
 
+.team-card a {
+  color: #080400;
+  text-decoration: none;
+}
+
 /******* swiper ********/
 
 .swiper {
@@ -459,6 +467,39 @@ button.white:hover {
   width: 26px;
   border-radius: 25px;
   background: #080400;
+}
+
+/******** OUR PARTNER *********/
+
+#our-partner {
+  background-color: #1a1a1a;
+}
+
+#our-partner h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 80px;
+}
+
+#partner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 2px solid;
+  border-color: #ffbd27;
+}
+
+.partner-logo {
+  height: 100px;
+  padding: 0 30px;
+  margin: 40px auto;
+}
+
+/****** FOOTER ********/
+
+#footer{
+  background-color: #1a1a1a;
 }
 
 /*

@@ -1,0 +1,10 @@
+[
+  { "name": "Binance", "img": "./img/partners/Binance.png" },
+  { "name": "Coinbase", "img": "./img/partners/Roma.png" },
+  { "name": "AsRoma", "img": "./img/partners/Coinbase.png" },
+  { "name": "Samsung", "img": "./img/partners/Nike.png" },
+  { "name": "Aave", "img": "./img/partners/Samsung.png" },
+  { "name": "Ubisoft", "img": "./img/partners/LA.png" },
+  { "name": "Ferrero", "img": "./img/partners/Ubisoft.png" },
+  { "name": "LA Laker", "img": "./img/partners/Aave.png" }
+]
