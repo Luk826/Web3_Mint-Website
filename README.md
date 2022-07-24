@@ -1,3 +1,3 @@
 # Web3_Mint-Website  -  Work in progress 🚧
 
-Frontend for an onepage website of an nft project, including the mint phase.
+Frontend for onepage website for nft project, including mint phase.

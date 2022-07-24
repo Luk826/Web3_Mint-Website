@@ -195,6 +195,14 @@ button.white:hover {
   padding: 18px;
 }
 
+#button-project{
+  margin-top: 15px;
+}
+
+#button-project:hover {
+  background-color: #ffbd27;
+}
+
 /* CARD */
 
 .card {

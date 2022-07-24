@@ -1,0 +1,23 @@
+{
+  "name": "web3_mint-website",
+  "version": "1.0.0",
+  "description": "Frontend for onepage website for nft project, including mint phase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luk826/Web3_Mint-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luk826/Web3_Mint-Website/issues"
+  },
+  "homepage": "https://github.com/Luk826/Web3_Mint-Website#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
